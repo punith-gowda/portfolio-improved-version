@@ -12,17 +12,22 @@
     0 0 75px var(--text-color);
 }
 
+html,
 body {
   margin: 0;
-  margin: 0px;
   padding: 0;
-  width: 100vw;
 }
 
+main {
+  background: rgb(12, 0, 36);
+  padding: 0;
+  margin: 0;
+}
 
 * {
-  background-color: rgb(12, 0, 36);
+
   scroll-behavior: smooth;
+
 }
 
 .header p {
@@ -124,10 +129,6 @@ p span {
   .wrapper {
     left: 35%;
   }
-
-  .button2 {
-    font-size: 1em;
-  }
 }
 
 @media (max-width: 999px) {
@@ -157,7 +158,7 @@ p span {
 
 #loader-bg {
   width: 100vw;
-  height: 1000vh;
+  height: 5000vh;
 }
 
 .wrapper {
@@ -879,24 +880,116 @@ p span {
 }
 
 .button2 {
+  position: relative;
   display: inline-block;
-  padding: 0.5em 3em;
-  border: 0.2em solid rgb(108, 204, 204);
-  border-radius: 6px;
-  margin: 0 0.3em 0.3em 0;
-  box-sizing: border-box;
-  text-decoration: none;
+  padding: 20px 40px;
+  margin: 40px 0;
   font-family: 'Epilogue', sans-serif;
-  font-weight: 400;
-  color: rgb(2, 255, 234);
-  text-align: center;
-  transition: all 0.5s;
-  margin-top: 4vh;
-  background-color: transparent;
+  color: #00ffd9;
+  text-decoration: none;
+  overflow: hidden;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+a:active,
+a {
+  text-decoration: none;
 }
 
 .button2:hover {
   text-decoration: none;
-  font-size: 1.2 em;
-  color: rgb(2, 255, 234);
+  background: #00ffd9;
+  text-decoration: none;
+  color: var(--text-color);
+  box-shadow: 0 0 5px #00ffd9, 0 0 25px #00ffd9, 0 0 100px #00ffd9, 0 0 150px #00ffd9;
+}
+
+.button2 span {
+  position: absolute;
+  display: block;
+}
+
+.button2 span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00ffd9);
+  animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.button2 span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #00ffd9);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.3s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.button2 span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #00ffd9);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.button2 span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #00ffd9);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.7s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
 }
