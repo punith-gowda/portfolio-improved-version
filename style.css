@@ -49,11 +49,11 @@ body {
 
 
 p span:nth-child(1) {
-  animation-delay: 4s;
+  animation-delay: 4.3s;
 }
 
 p span:nth-child(2) {
-  animation: turnOn 3.2s forwards step-end,
+  animation: turnOn 3.8s forwards step-end,
     flicker var(--animation-time) infinite step-end 2s;
 }
 
@@ -62,17 +62,17 @@ p span:nth-child(3) {
 }
 
 p span:nth-child(4) {
-  animation: turnOn 3.5s forwards step-end,
+  animation: turnOn 4.5s forwards step-end,
     flicker var(--animation-time) infinite step-end 1s;
 }
 
 
 p span:nth-child(5) {
-  animation-delay: 4.6s;
+  animation-delay: 4.9s;
 }
 
 p span:nth-child(6) {
-  animation: turnOn 4.3s forwards step-end,
+  animation: turnOn 4.7s forwards step-end,
     flicker var(--animation-time) infinite step-end 3s;
 }
 
