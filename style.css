@@ -26,7 +26,7 @@ main {
 }
 
 * {
-
+  background: rgb(12, 0, 36);
   scroll-behavior: smooth;
 
 }
@@ -123,6 +123,9 @@ p span {
   .about h2 {
     font-size: 3em;
   }
+  .skills-head h5 {
+    font-size: 2em;
+  }
 
 }
 
@@ -143,6 +146,9 @@ p span {
 
   .about h2 {
     font-size: 1.5em;
+  }
+  .skills-head h5 {
+    font-size: 1.6em;
   }
 
 }
@@ -274,7 +280,7 @@ a {
 }
 
 .about {
-  padding-bottom: 10vh ;
+  padding-bottom: 10vh;
 }
 
 .about h2 {
@@ -305,11 +311,16 @@ a {
 }
 
 
-
 .gradient::before {
   background: linear-gradient(to left, #00ffd9 40%, transparent);
 }
 
 .gradient::after {
   background: linear-gradient(to right, #00ffd9 40%, transparent);
+}
+
+.skills-head h5 {
+  color: rgb(129, 199, 199);
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
 }
