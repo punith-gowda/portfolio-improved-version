@@ -59,7 +59,7 @@ p span:nth-child(1) {
 }
 
 p span:nth-child(2) {
-  animation: turnOn 3.8s forwards step-end,
+  animation: turnOn 5s forwards step-end,
     flicker var(--animation-time) infinite step-end 2s;
 }
 
@@ -643,7 +643,7 @@ p span {
   }
 
   10% {
-    height: 220px;
+    height: 220px; 
     top: -110px;
     left: 15px;
   }
