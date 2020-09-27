@@ -303,20 +303,10 @@ a {
 
 .line::before,
 .line::after {
-  height: 1px;
+  height: 3px;
   margin: 0 1em;
 }
 
-
-.double-razor::before,
-.double-razor::after {
-  height: 1 px;
-  box-shadow:
-    0 -2px 0 rgb(99, 0, 192),
-    0 2px 0 rgb(99, 0, 192);
-  border: solid rgb(70, 0, 169);
-  border-width: 0;
-}
 
 
 .gradient::before {
