@@ -273,6 +273,10 @@ a {
   min-height: 100vh;
 }
 
+.about {
+  padding-bottom: 10vh ;
+}
+
 .about h2 {
   font-weight: 700;
   font-family: 'Epilogue', sans-serif;
@@ -303,9 +307,9 @@ a {
 
 
 .gradient::before {
-  background: linear-gradient(to left,#00ffd9 40% , transparent);
+  background: linear-gradient(to left, #00ffd9 40%, transparent);
 }
 
 .gradient::after {
-  background: linear-gradient(to right,#00ffd9 40%, transparent);
+  background: linear-gradient(to right, #00ffd9 40%, transparent);
 }
