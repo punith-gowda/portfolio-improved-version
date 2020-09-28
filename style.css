@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
 :root {
   --text-color: rgb(53, 0, 158);
   --animation-time: 3s;
@@ -34,18 +35,23 @@ main {
   margin: 0px;
   color: #fff;
 }
-table{
+
+table {
   padding-top: 50px;
   display: flex;
   justify-content: center;
 }
+
 table td {
-  padding-right:40px ;
+  padding-right: 40px;
   padding-top: 10px;
   text-align: left;
   color: #00ffd9;
   font-family: 'Hammersmith One', sans-serif;
 }
+
+
+
 
 .sub-title h3 {
   color: rgb(129, 199, 199);
@@ -133,10 +139,16 @@ p span {
   .about h2 {
     font-size: 3em;
   }
+
   .skills-head h5 {
     font-size: 1.3em;
   }
 
+  .photo img {
+    border-radius: 2%;
+    filter: drop-shadow(40px 40px 0px #00ffff);
+    transition: 1s;
+  }
 }
 
 @media (max-width: 999px) {
@@ -157,10 +169,23 @@ p span {
   .about h2 {
     font-size: 1.5em;
   }
+
   .skills-head h5 {
     font-size: 1.2em;
   }
 
+  .photo {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .photo img {
+    border-radius: 3%;
+    width: 80vw;
+    filter: drop-shadow(20px 20px 0px #00f7ff);
+    transition: 1s;
+
+  }
 }
 
 .sub-title p {
@@ -333,4 +358,8 @@ a {
   color: rgb(113, 167, 167);
   font-weight: 700;
   font-family: 'Epilogue', sans-serif;
+}
+
+.photo img:hover {
+  filter: drop-shadow(0px 0px #e6ff05);
 }
