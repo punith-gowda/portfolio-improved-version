@@ -17,6 +17,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -314,6 +315,14 @@ a {
   min-height: 100vh;
 }
 
+#section2 {
+  background: rgb(12, 0, 36);
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  padding-top: 8vh;
+}
+
 .about {
   padding-bottom: 5vh;
 }
@@ -362,4 +371,19 @@ a {
 
 .photo img:hover {
   filter: drop-shadow(0px 0px #e6ff05);
+}
+.works{
+  padding-top: 5vh;
+}
+.works h5 {
+  color: rgb(157, 216, 216);
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+
+}
+
+.line_drop {
+  line-height: 2em; 
+  border-bottom: #00ff88 2px solid;
+  text-transform: none;
 }
