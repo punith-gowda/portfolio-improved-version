@@ -158,6 +158,10 @@ p span {
   .works h5 {
     font-size: 24px;
   }
+
+  .button3 {
+    left: 40%;
+  }
 }
 
 @media (max-width: 999px) {
@@ -429,10 +433,6 @@ a {
   padding-bottom: 30px;
 }
 
-.intern:hover {
-  background-color: rgba(0, 255, 255, 0.075);
-  border-radius: 5%;
-}
 
 
 .intern ul li {
@@ -501,7 +501,6 @@ a {
 }
 
 .button3 {
-  left: 40%;
   position: relative;
   display: inline-block;
   padding: 20px 40px;
