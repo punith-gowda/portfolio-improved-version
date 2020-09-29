@@ -482,9 +482,15 @@ a {
   color: #00ffff;
   font-size: 13px;
 }
-.card1:hover{
+
+.card1:hover {
   transform: translateY(-10px);
 }
-.card1:hover .card-content{
+
+.card1:hover .card-content {
   background-color: #00ffff27;
+}
+
+#more {
+  display: none;
 }
