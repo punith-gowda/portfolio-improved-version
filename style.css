@@ -198,7 +198,8 @@ p span {
     transition: 1s;
 
   }
-  .intern h3{
+
+  .intern h3 {
     font-size: 18px;
   }
 }
@@ -389,6 +390,7 @@ a {
 
 .works {
   padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .works h5 {
@@ -409,14 +411,29 @@ a {
 
 .intern h3 {
   color: rgb(38, 211, 75);
-  text-align: center;
-  padding-top: 5vh;
+  text-align: left;
+
+  font-weight: bold;
 }
 
-.intern ul{
-  list-style-type: none;
+.intern h5 {
+  color: #00f7ff;
+  text-align: left;
 }
 
-.intern ul li{
+.intern {
+  padding-bottom: 30px;
+}
+
+.intern:hover {
+  background-color: rgba(0, 255, 255, 0.075);
+  border-radius: 5%;
+}
+
+
+.intern ul li {
   padding-top: 3vh;
+  color: rgb(180, 173, 173);
+  font-size: 16px;
+  font-weight: bold;
 }
