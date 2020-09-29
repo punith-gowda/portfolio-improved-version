@@ -150,9 +150,20 @@ p span {
     filter: drop-shadow(40px 40px 0px #00ffff);
     transition: 1s;
   }
+
+  .line_drop:hover {
+    width: 13vw;
+  }
+
+  .works h5 {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 999px) {
+  .works h5 {
+    font-size: 20px;
+  }
 
   p span {
     font-size: 4em;
@@ -186,6 +197,9 @@ p span {
     filter: drop-shadow(20px 20px 0px #00f7ff);
     transition: 1s;
 
+  }
+  .intern h3{
+    font-size: 18px;
   }
 }
 
@@ -372,9 +386,11 @@ a {
 .photo img:hover {
   filter: drop-shadow(0px 0px #e6ff05);
 }
-.works{
+
+.works {
   padding-top: 5vh;
 }
+
 .works h5 {
   color: rgb(157, 216, 216);
   font-weight: 700;
@@ -383,7 +399,24 @@ a {
 }
 
 .line_drop {
-  line-height: 2em; 
+  line-height: 2em;
+  width: 60vw;
   border-bottom: #00ff88 2px solid;
   text-transform: none;
+  transition: 1s;
+  width: 100%;
+}
+
+.intern h3 {
+  color: rgb(38, 211, 75);
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.intern ul{
+  list-style-type: none;
+}
+
+.intern ul li{
+  padding-top: 3vh;
 }
