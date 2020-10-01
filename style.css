@@ -572,7 +572,7 @@ p span {
 }
 footer{
   background: rgb(19, 0, 59);
-  min-height: 16vh;
+  min-height: 110px;
 }
 footer .icons{
   text-align: center;
