@@ -582,3 +582,12 @@ footer .icons img{
   height: 30px;
   padding-left:20px;
 }
+
+.copyright{
+  color: #9bc5c5;
+  font-family: 'Epilogue', sans-serif;
+  float: right;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
